@@ -1,0 +1,25 @@
+.btn-secondary-tgl-sm {
+    padding: 10px 20px 10px 20px;
+    border: none;
+    color: var(--secondary);
+    cursor: pointer;
+    background: transparent;
+}
+
+.btn-secondary-tgl-sm-active {
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: var(--dark);
+    cursor: pointer;
+    background: linear-gradient(
+            135deg,
+            var(--accent) 25%,
+            var(--darker-yellow) 25%,
+            var(--darker-yellow) 50%,
+            var(--accent) 50%,
+            var(--accent) 75%,
+            var(--darker-yellow) 75%,
+            var(--darker-yellow));
+    background-size: 30px 30px;
+}

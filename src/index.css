@@ -1,0 +1,53 @@
+:root {
+  /* COLORS */
+  --primary: #131620;
+  --secondary: #dfdfdf;
+  --blue: #192759;
+  --accent: #F9B432;
+  --darker-yellow: #ffa80c;
+  --white: #fff;
+  --black: #000;
+  --background: #181A27;
+  --dark: #131620;
+  --lightGrey: #9d9d9d;
+
+  /* TEXT COLORS */
+  --text-default: #3b3b3b;
+
+
+
+  /* TYPOGRAPHY */
+  p, h1, h2, h3 {
+    margin: 0;
+  }
+
+  h1, h2, h3 {
+    color: var(--white);
+  }
+
+  p {
+    color: var(--text-default);
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--background);
+    font-family: 'oswald';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  }
+}
+
+@font-face {
+  font-family: 'oswald';
+  src: url('/public/assets/fonts/Oswald-Regular.ttf') format('truetype');
+}

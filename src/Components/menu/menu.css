@@ -1,0 +1,38 @@
+.main-menu-item {
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--white);
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0.4em 1em;
+}
+
+.main-menu-item:hover {
+    color: var(--background);
+    border-radius: 5px;
+    background: linear-gradient(
+            135deg,
+            var(--accent) 25%,
+            var(--darker-yellow) 25%,
+            var(--darker-yellow) 50%,
+            var(--accent) 50%,
+            var(--accent) 75%,
+            var(--darker-yellow) 75%,
+            var(--darker-yellow));
+    background-size: 30px 30px;
+}
+
+.active {
+    color: var(--background);
+    border-radius: 5px;
+    background: linear-gradient(
+            135deg,
+            var(--accent) 25%,
+            var(--darker-yellow) 25%,
+            var(--darker-yellow) 50%,
+            var(--accent) 50%,
+            var(--accent) 75%,
+            var(--darker-yellow) 75%,
+            var(--darker-yellow));
+    background-size: 30px 30px;
+}

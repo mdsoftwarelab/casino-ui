@@ -1,0 +1,12 @@
+.spacer {
+    border: none;
+    padding: 1px;
+    text-align: center;
+    background: repeating-linear-gradient(
+            to right,
+            var(--accent) 0,
+            var(--accent) 10px,
+            transparent 10px,
+            transparent 20px
+    );
+}
