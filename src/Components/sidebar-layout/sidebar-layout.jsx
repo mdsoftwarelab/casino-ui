@@ -1,7 +1,7 @@
 import React from 'react';
 import './sidebar-layout.css'
 
-const SidebarLayout = ({ main, sidebar }) => {
+const SidebarLayout = ({ content, sidebar }) => {
     return (
 
         <div className="grid sidebar-layout h-full">
@@ -11,7 +11,7 @@ const SidebarLayout = ({ main, sidebar }) => {
                 </div>
             </div>
             <div className="h-full">
-                {main}
+                {content}
             </div>
         </div>
     )
