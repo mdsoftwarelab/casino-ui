@@ -1,3 +1,42 @@
+.btn-secondary-md {
+    font-weight: bold;
+    padding: 15px 25px 15px 25px;
+    border: none;
+    border-radius: 5px;
+    color: var(--dark);
+    cursor: pointer;
+    background: linear-gradient(
+            135deg,
+            var(--accent) 25%,
+            var(--darker-yellow) 25%,
+            var(--darker-yellow) 50%,
+            var(--accent) 50%,
+            var(--accent) 75%,
+            var(--darker-yellow) 75%,
+            var(--darker-yellow));
+    background-size: 30px 30px;
+}
+
+.btn-secondary-md:hover {
+    font-weight: bold;
+    padding: 15px 25px 15px 25px;
+    border: none;
+    border-radius: 5px;
+    color: var(--white);
+    cursor: pointer;
+    background: linear-gradient(
+            135deg,
+            var(--accent) 25%,
+            var(--darker-yellow) 25%,
+            var(--darker-yellow) 50%,
+            var(--accent) 50%,
+            var(--accent) 75%,
+            var(--darker-yellow) 75%,
+            var(--darker-yellow));
+    background-size: 30px 30px;
+}
+
+/* TOGGLE BUTTONS */
 .btn-secondary-tgl-sm {
     padding: 10px 20px 10px 20px;
     border: none;

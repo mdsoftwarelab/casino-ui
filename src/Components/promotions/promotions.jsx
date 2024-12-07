@@ -33,8 +33,12 @@ const Promotions = () => {
             </div>
             <div className="spacer"></div>
             <div className="mt-sm mb-sm">
-                <Card title={"Spin and win!!"} image={"/images/testPromo.png"} url={"/promotions"}/>
-                <Card title={"Spin and win!!"} image={"/images/testPromo.png"} url={"/promotions"}/>
+                <div className="mt-1">
+                    <Card title={"Spin and win!!"} image={"/images/game1.png"} url={"/promotions"} isPromo={true}/>
+                </div>
+                <div className="mt-1">
+                    <Card title={"Spin and win!!"} image={"/images/game1.png"} url={"/promotions"} isPromo={true}/>
+                </div>
             </div>
         </div>
     )
