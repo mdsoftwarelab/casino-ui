@@ -7,7 +7,7 @@ const RoutingLayer = () => {
     return (
         <Routes>
             <Route path="/" element={<App />}>
-                <Route path="home" element={<Home />} />
+                <Route path="/" element={<Home />} />
                 <Route path="games" element={<h1>Games</h1>} />
                 <Route path="promotions" element={<h1>Promotions</h1>} />
                 <Route path="contact" element={<h1>Contact</h1>} />
