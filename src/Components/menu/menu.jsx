@@ -5,7 +5,7 @@ const Menu = () => {
     const menuItems = [
         {
             title: 'Home',
-            url: ''
+            url: '/'
         },
         {
             title: 'Promotions',
