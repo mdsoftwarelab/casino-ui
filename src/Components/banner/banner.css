@@ -1,7 +1,5 @@
 .App {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     margin: 0;
     padding-top: 1em;
   }
@@ -29,20 +27,12 @@
     object-fit: cover;
   }
   
-  button {
-    border-radius: 50%;
-    z-index: 1; 
-  }
-  
-  
-  
   .prev {
     position: absolute;
     left: 10px;
     top: 50%;
     transform: translateY(-50%);
   }
-  
   
   .next {
     position: absolute;
