@@ -1,9 +1,16 @@
 :root {
+  /* BACKGROUND IMAGE */
+  .background-img {
+    background-image: url("/public/images/christmas-background.png");
+  }
+  /* ================================================================================================================ */
+
   /* COLORS */
   --primary: #131620;
   --secondary: #dfdfdf;
   --blue: #192759;
   --accent: #F9B432;
+  --tertiary: #9900b5;
   --darker-yellow: #ffa80c;
   --white: #fff;
   --black: #000;
@@ -39,11 +46,6 @@
     font-family: 'oswald';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
-
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
   }
 }
 

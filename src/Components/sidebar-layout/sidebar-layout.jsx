@@ -10,7 +10,7 @@ const SidebarLayout = ({ content, sidebar }) => {
                     {sidebar}
                 </div>
             </div>
-            <div className="h-full">
+            <div className="h-full background-img">
                 {content}
             </div>
         </div>
