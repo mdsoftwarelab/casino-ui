@@ -1,0 +1,9 @@
+@media screen and (max-width: 820px) {
+    .sidebar-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner {
+        display: none;
+    }
+}

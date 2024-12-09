@@ -1,4 +1,5 @@
 import React from "react";
+import './home.css'
 import SidebarLayout from "../../Components/sidebar-layout/sidebar-layout";
 import Promotions from "../../Components/promotions/promotions";
 import Banner from "../../Components/banner/banner";
@@ -14,7 +15,9 @@ const Home = () => {
             </>
         }
       />
-    
+
+        // <SidebarLayout sidebar={<Promotions />} content={"content"} />
+
     )
 }
 

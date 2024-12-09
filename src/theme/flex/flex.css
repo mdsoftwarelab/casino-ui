@@ -1,0 +1,37 @@
+/* FLEX */
+
+.flex {
+    display: flex;
+}
+
+.col-25 {
+    flex: 1 1 1fr;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.items-start {
+    align-items: flex-start;
+}
+
+.direction-col {
+    flex-direction: column;
+}
+
+.gap-20 {
+    gap: 20px;
+}

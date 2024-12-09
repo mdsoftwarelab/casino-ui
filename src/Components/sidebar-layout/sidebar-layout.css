@@ -1,3 +1,9 @@
 .sidebar {
     background-color: var(--primary);
+    flex: 0 0 20%;
 }
+
+.sidebar-content {
+    flex: 0 0 80%;
+}
+
