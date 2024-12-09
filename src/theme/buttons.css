@@ -62,3 +62,23 @@
             var(--darker-yellow));
     background-size: 30px 30px;
 }
+
+/* MOBILE MENU BUTTON */
+
+.btn-menu-tgl-sm {
+    padding: 10px 18px 7px 18px;
+    border: none;
+    border-radius: 5px;
+    color: var(--dark);
+    cursor: pointer;
+    background: linear-gradient(
+            135deg,
+            var(--accent) 25%,
+            var(--darker-yellow) 25%,
+            var(--darker-yellow) 50%,
+            var(--accent) 50%,
+            var(--accent) 75%,
+            var(--darker-yellow) 75%,
+            var(--darker-yellow));
+    background-size: 30px 30px;
+}

@@ -1,3 +1,7 @@
+.mobile-menu {
+    display: none;
+}
+
 .main-menu-item {
     text-decoration: none;
     list-style-type: none;
@@ -35,4 +39,33 @@
             var(--darker-yellow) 75%,
             var(--darker-yellow));
     background-size: 30px 30px;
+}
+
+@media screen and (max-width: 820px) {
+    .menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .mobile-menu-item {
+        text-decoration: none;
+        list-style-type: none;
+        color: var(--white);
+        margin-left: 1em;
+        margin-right: 1em;
+        padding: 0.3em 1em;
+    }
+
+    .mobile-menu-item:hover {
+        color: var(--accent);
+    }
+
+    .mobile-menu-item {
+        list-style-type: none;
+        padding: 12px;
+    }
+
 }

@@ -1,0 +1,34 @@
+/* GRID */
+/*====================================================================================================================*/
+
+.grid {
+    display: grid;
+}
+
+.main-layout {
+    height: 100vh;
+    width: 100vw;
+}
+
+.sidebar-layout {
+    grid-template-columns: 1fr 4fr;
+}
+
+.header-layout {
+    grid-template-columns: 1fr 4fr;
+}
+
+.g-25 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/*====================================================================================================================*/
+/* MEDIA QUERIES */
+/*====================================================================================================================*/
+
+/* MOBILE DEVICES */
+@media screen and (max-width: 411px) {
+    .sidebar-layout {
+        grid-template-columns: 100%;
+    }
+}

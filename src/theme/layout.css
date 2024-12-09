@@ -1,3 +1,6 @@
+@import url("./grid/grid.css");
+@import url("./flex/flex.css");
+
 /*====================================================================================================================*/
 /* WIDTHS */
 
@@ -21,59 +24,7 @@
 }
 
 /*====================================================================================================================*/
-/* GRID */
 
-.grid {
-    display: grid;
-}
-
-.main-layout {
-    height: 100vh;
-    grid-template-rows: 1fr 9fr;
-}
-
-.sidebar-layout {
-    grid-template-columns: 1fr 4fr;
-}
-
-.header-layout {
-    grid-template-columns: 1fr 4fr;
-}
-
-.g-25 {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-/*====================================================================================================================*/
-/* FLEX */
-
-.flex {
-    display: flex;
-}
-
-.justify-between {
-    justify-content: space-between;
-}
-
-.justify-end {
-    justify-content: flex-end;
-}
-
-.justify-center {
-    justify-content: center;
-}
-
-.items-center {
-    align-items: center;
-}
-
-.items-start {
-    align-items: flex-start;
-}
-
-.direction-col {
-    flex-direction: column;
-}
 
 /*====================================================================================================================*/
 /* MARGINS */
@@ -87,11 +38,11 @@
 }
 
 .ml-2 {
-    margin-left: 1.5em;
+    margin-left: 2em;
 }
 
 .ml-lg {
-    margin-left: 3em;
+    margin-left: 4em;
 }
 
 .mb-sm {
@@ -111,7 +62,7 @@
 }
 
 .mr-lg {
-    margin-right: 3em;
+    margin-right: 4em;
 }
 
 .mt-sm {
@@ -165,4 +116,14 @@
 
 .border-btm {
     border-bottom: 2px solid var(--accent);
+}
+
+@media screen and (max-width: 820px) {
+    .mr-lg {
+        margin-right: 2em;
+    }
+
+    .ml-lg {
+        margin-left: 2em;
+    }
 }
