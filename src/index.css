@@ -50,6 +50,10 @@
   body::-webkit-scrollbar {
     display: none;  /* Hide the scrollbar */
   }
+
+  input, textarea {
+    font-family:'oswald', Tahoma, Geneva, Verdana, sans-serif, monospace;
+  }
 }
 
 @font-face {
