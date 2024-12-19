@@ -1,6 +1,5 @@
 import './App.css';
 import {Outlet} from "react-router-dom";
-import Menu from "./Components/menu/menu";
 import Navbar from "./Components/navbar/navbar";
 
 function App() {
